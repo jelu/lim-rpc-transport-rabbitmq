@@ -1,0 +1,16 @@
+#---
+#rpc:
+#  transport:
+#    rabbitmq:
+#      host: localhost
+#      port: 5672
+#      user: guest
+#      pass: guest
+#      vhost: /
+#      timeout: 10
+#      queue_prefix: lim_
+#      verbose: 0
+#      prefetch_count: 1
+#      broadcast: 0
+#      exchange_prefix: lim_exchange_
+#      retry_interval: 5
