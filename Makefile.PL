@@ -53,9 +53,9 @@ WriteMakefile(
     (! eval { ExtUtils::MakeMaker->VERSION(6.46) } ? () :
         (META_ADD => {
             resources => {
-                homepage   => 'https://github.com/jelu/lim-rpc-transport-rabbitmq/wiki',
-                repository => 'https://github.com/jelu/lim-rpc-transport-rabbitmq',
-                bugtracker => 'https://github.com/jelu/lim-rpc-transport-rabbitmq/issues',
+                homepage   => 'https://github.com/jelu/lim-transport-rabbitmq/wiki',
+                repository => 'https://github.com/jelu/lim-transport-rabbitmq',
+                bugtracker => 'https://github.com/jelu/lim-transport-rabbitmq/issues',
             },
         })
     ),

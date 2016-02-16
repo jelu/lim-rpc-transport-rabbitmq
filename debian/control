@@ -6,7 +6,7 @@ Build-Depends-Indep: liblim-server-perl (>= 0.20),
  libanyevent-rabbitmq-perl (>= 1.15~dfsg-2)
 Maintainer: Jerry Lundström <lundstrom.jerry@gmail.com>
 Standards-Version: 3.9.1
-Homepage: https://github.com/jelu/lim-rpc-transport-rabbitmq/wiki
+Homepage: https://github.com/jelu/lim-transport-rabbitmq/wiki
 
 Package: liblim-transport-rabbitmq-perl
 Architecture: all

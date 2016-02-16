@@ -26,11 +26,11 @@ Lim::RPC::Transport::RabbitMQ - RabbitMQ transport for Lim
 
 =head1 VERSION
 
-0.01
+0.20
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.20';
 
 =head1 SYNOPSIS
 

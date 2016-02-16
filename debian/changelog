@@ -1,5 +1,5 @@
-liblim-transport-rabbitmq-perl (0.01-1~unstable+1) unstable; urgency=low
+liblim-transport-rabbitmq-perl (0.20-9~unstable+1) unstable; urgency=low
 
-  * New release 0.01 candidate 01.
+  * New release 0.20, separation from Lim.
 
  -- Jerry Lundström <lundstrom.jerry@gmail.com>  Tue, 16 Feb 2016 13:55:09 +0100
