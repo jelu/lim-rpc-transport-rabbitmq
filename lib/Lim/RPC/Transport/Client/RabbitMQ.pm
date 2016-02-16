@@ -27,11 +27,11 @@ use base qw(Lim::RPC::Transport::Client);
 
 =head1 VERSION
 
-See L<Lim> for version.
+0.01
 
 =cut
 
-our $VERSION = $Lim::VERSION;
+our $VERSION = '0.01';
 
 =head1 SYNOPSIS
 
