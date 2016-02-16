@@ -22,7 +22,7 @@ use base qw(Lim::RPC::Transport);
 
 =head1 NAME
 
-...
+Lim::RPC::Transport::RabbitMQ - RabbitMQ transport for Lim
 
 =head1 VERSION
 
@@ -33,6 +33,10 @@ use base qw(Lim::RPC::Transport);
 our $VERSION = '0.01';
 
 =head1 SYNOPSIS
+
+...
+
+=head1 DESCRIPTION
 
 ...
 

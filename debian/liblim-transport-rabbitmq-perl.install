@@ -1,5 +1,1 @@
-usr/share/man/man3/Lim::RPC::Transport::RabbitMQ.3pm
-usr/share/man/man3/Lim::RPC::Transport::Client::RabbitMQ.3pm
-usr/share/perl5/Lim/RPC/Transport/RabbitMQ.pm
-usr/share/perl5/Lim/RPC/Transport/Client/RabbitMQ.pm
 etc/lim/agent.d/lim-rpc-transport-rabbitmq.yaml /etc/lim/agent.d/

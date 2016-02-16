@@ -1,25 +1,17 @@
-Source: lim-rpc-transport-rabbitmq
+Source: liblim-transport-rabbitmq-perl
 Section: perl
 Priority: optional
 Build-Depends: debhelper (>= 7)
-Build-Depends-Indep: libanyevent-perl (>= 5), libcommon-sense-perl (>= 3),
- libjson-xs-perl (>= 2), liblog-log4perl-perl (>= 1), libmodule-find-perl,
- liburi-perl (>= 1), libwww-perl (>= 5),
- libyaml-perl (>= 0.70), perl (>= 5.10.1), libnet-ssleay-perl (>= 1.35),
- libxmlrpc-transport-http-server-perl (>= 0.12),
- liblog-log4perl-appender-lim-cli-perl (>= 0.12),
- liblog-dispatch-perl (>= 2.22), libxmlrpc-lite-perl (>= 0.71) |
- libsoap-lite-perl (>= 0.71), libsoap-lite-perl,
- libanyevent-rabbitmq-perl (>= 1.15~dfsg-2),
- libdbi-perl (>= 1.612)
+Build-Depends-Indep: liblim-server-perl (>= 0.20),
+ libanyevent-rabbitmq-perl (>= 1.15~dfsg-2)
 Maintainer: Jerry Lundström <lundstrom.jerry@gmail.com>
 Standards-Version: 3.9.1
-Homepage: https://github.com/jelu/lim/wiki
+Homepage: https://github.com/jelu/lim-rpc-transport-rabbitmq/wiki
 
 Package: liblim-transport-rabbitmq-perl
 Architecture: all
 Depends: ${misc:Depends}, ${perl:Depends},
- liblim-server-perl (= 0.20-8~unstable+1),
+ liblim-server-perl (>= 0.20),
  libanyevent-rabbitmq-perl (>= 1.15~dfsg-2)
 Description: Lim RabbitMQ transport perl libraries
  Lim perl libraries for RabbitMQ transport.

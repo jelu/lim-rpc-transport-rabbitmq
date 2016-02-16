@@ -1,4 +1,4 @@
-lim-rpc-transport-rabbitmq (0.0101-1~unstable+1) unstable; urgency=low
+liblim-transport-rabbitmq-perl (0.01-1~unstable+1) unstable; urgency=low
 
   * New release 0.01 candidate 01.
 
